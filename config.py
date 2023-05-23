@@ -1,0 +1,12 @@
+API_KEY = "MY_API_KEY_GOES_HERE"
+BAYSE_API_ENDPOINT = "https://api.bayse.io"
+BAYSE_INTERPRETATION_ENDPOINT = f"{BAYSE_API_ENDPOINT}/site/interpret/request"
+BAYSE_INTERPRETATION_STATUS_ENDPOINT = f"{BAYSE_API_ENDPOINT}/site/interpret/status?"
+BAYSE_REQUEST_INTERPRETATION_RESULTS_ENDPOINT = f"{BAYSE_API_ENDPOINT}/interpretation?"
+
+TRIAL_TAG = "pc_feed"
+SOURCE_TAGS_DEFAULT = ["API"]
+BATCH_INPUT_FILENAME = "batch_input.txt"
+UUIDS_FILENAME = "bayse_result_ids.txt"
+RESULTS_FILENAME = "bayse_results_data.json"
+SLEEP_TIME = 15
